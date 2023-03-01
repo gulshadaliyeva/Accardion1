@@ -1,0 +1,80 @@
+section .title {
+  padding: 50px 0 20px 0;
+}
+section .title .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+section .title .menu ul a.active {
+  color: blueviolet;
+}
+section .title .menu ul li {
+  padding: 0 10px;
+}
+section .title .menu ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+section .title .menu ul li a:hover {
+  color: orange;
+}
+section .foot .wrapper {
+  margin-bottom: 30px;
+  padding: 40px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.06);
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+}
+section .foot .wrapper .item h3 {
+  font-size: 20px;
+}
+section .foot .wrapper .item .link {
+  margin-bottom: 10px;
+}
+section .foot .wrapper .item .link a {
+  text-decoration: none;
+  color: #999;
+  transition: all 0.3 ease;
+}
+section .foot .wrapper .item .link a:hover {
+  color: orange;
+}
+section .foot .wrapper .item p {
+  font-size: 16px;
+}
+section .foot .wrapper .item p a {
+  text-decoration: none;
+  color: blueviolet;
+  transition: all 0.3 ease;
+}
+section .foot .wrapper .item p a:hover {
+  color: orange;
+}
+section .foot .wrapper .info {
+  display: flex;
+}
+section .foot .wrapper .info .img-wrapper {
+  margin: 20px 0;
+}
+section .foot .wrapper .info .img-wrapper img {
+  border-radius: 10px;
+  width: 250px;
+  overflow: hidden;
+}
+section .foot .wrapper .info .detail {
+  display: flex;
+  align-items: center;
+}
+section .foot .wrapper .info .detail ul {
+  list-style: none;
+}
+section .foot .wrapper .info .detail ul li {
+  padding: 5px 0;
+  color: #777777;
+}
+section .foot .wrapper .info .detail ul li a {
+  text-decoration: none;
+  color: #999;
+}/*# sourceMappingURL=style.css.map */
